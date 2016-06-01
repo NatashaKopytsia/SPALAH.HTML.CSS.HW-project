@@ -13,15 +13,6 @@
 	src:url(../fonts/Roboto-Bold.ttf)
 }
 
-@font-face {
-	font-family:Socialico;
-	src:url(../fonts/Socialico.eot?) format('eot'),
-	url(../fonts/Socialico.woff) format('woff'),
-	url(../fonts/Socialico.ttf) format('truetype'),
-	url(../fonts/Socialico.svg#Socialico) format('svg');
-	font-weight:400;
-	font-style:normal
-}
 
 body {
 	width:100%;
@@ -159,7 +150,7 @@ hr {
 } 
 
 .main_menu {
-	margin-bottom:200px ;
+	margin-bottom:200px;
 }
 
 .content .content_column2 {
@@ -190,17 +181,22 @@ hr {
 	color:#464646;
 }
 
-.callback {
-	width:430px;
+.callback,.comments_header {
+	width: 430px;
 	margin:0 auto 100px;
 	text-align:center;
 }
 
-.callback h3 {
-	font:400 30px/24px 'Roboto Bold';
+.callback a,.comments_header a{
+	text-decoration: none;
 }
 
-.callback p {
+.callback h3,.comments_header h3 {
+	font:400 30px/24px 'Roboto Bold';
+	color: #464646;
+}
+
+.callback p,.comments_header p {
 	font:400 18px/30px 'Roboto Light';
 	color:#b7b7b7;
 }
@@ -221,7 +217,7 @@ hr {
 
 .reviews .reviews_header {
 	font:400 18px/24px 'Roboto Bold';
-	color:#262626;
+	color: #464646;
 	padding-right:30px;
 }
 
@@ -271,6 +267,7 @@ hr {
 .comments h3,.slider_content h3 {
 	font:400 30px/40px 'Roboto Bold';
 	margin-bottom:20px;
+	color: #464646;
 }
 
 .slider_preview {
