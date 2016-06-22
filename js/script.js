@@ -208,16 +208,6 @@ function show_menu(){
 
 $('.show_menu').click(show_menu);
 
-function show_menu_nav(){
-	$(this)
-		.toggleClass('clicked')
-		.siblings('ul')
-		.slideToggle().parent('nav')
-		.toggleClass('ready')
-		.end()
-		.end()
-	}
 
-$('.show_menu_nav').click(show_menu_nav);
 
 

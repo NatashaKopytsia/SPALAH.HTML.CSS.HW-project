@@ -525,7 +525,6 @@ hr {
 }
 .content_layout .images, .content_layout .instagram_layout {
 	margin: -3px -3px;
-	
 }
 
 .instagram_content1 p:first-child, .instagram_content1 p:last-child, .jewelery_content1 p:first-child, .jewelery_content1 p:last-child {
@@ -812,7 +811,6 @@ hr {
 
 .prev {
 	background: url(../images/arrow_left.png) no-repeat;
-	
 }
 
 .pop_up_bg, .pop_up_inst_bg{
@@ -953,8 +951,6 @@ hr {
     	margin-bottom: -10px;
     }
 
-
-
     .callback a p br {
 		display: none;
 	}
@@ -989,11 +985,8 @@ hr {
 
     .choose_col_2, .choose_col_1  {
     	margin-top: -170px;
-    	margin-left: 10px;
-    	
+    	margin-left: 10px;	
     }
-
-
 
     .jewelery h2 {
     	margin-top: -70px;
@@ -1001,18 +994,14 @@ hr {
     	padding-bottom: 30px;
     }
 
-
     .choose_layout p {
     	width: 300px;
     	margin-left: 10px;
     }
 
- 
     .none {
     	display: inline-block;
-    	
     }
-
 
     .jewelery .box, .instagram .box {
     	width: 300px;
@@ -1023,23 +1012,21 @@ hr {
     	background-size: cover;
     	width: 150px;
     	height: 150px;
-    	
     }
 
     .images.img1, .images.img2, .images.img3, .images.img4, .images.img5, .images.img6, .instagram_layout.img_1, .instagram_layout.img_2, .instagram_layout.img_3, .instagram_layout.img_4, .instagram_layout.img_5, .instagram_layout.img_6{
     	width: 150px;
     	height: 150px;
-
     }
 
    	.content_layout h2 {
     	margin-left: 20px;
-   
     }
 
     .content_layout .images img {
       	margin-left: 60px;
     }
+
     .content_layout .instagram_layout img {
       	margin-left: 20px;
     }
@@ -1075,7 +1062,6 @@ hr {
 	.jewelery_content1 {
 		margin-left: 20px;
 	}
-
 
 	.comments .comments_header {
 		width: 400px;
@@ -1429,13 +1415,9 @@ hr {
 		font-size: 24px;
 		text-align: center;
     }
-
-
-
-  
 }
 
 	
-/**{outline:1px solid red} 
+
 
 
